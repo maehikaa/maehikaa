@@ -11,7 +11,7 @@ Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to
 
 ## Current Adventure 🌟
 
-📚 **Master's in Business Analytics @ USC Marshall**  
+📚 **Master's of Science in Business Analytics @ University of Southern California, Marshall School of Business**  
    - Diving deep into the world of data at the University of Southern California.
    - Pythonista 🐍, SQL enthusiast, and a Statistician at heart.
    - Crafting compelling visualizations in Tableau - turning complexity into clarity.
@@ -25,6 +25,9 @@ Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white" alt="SQL"/>
   <img src="https://img.shields.io/badge/Statistics-2B65EC?style=for-the-badge&logo=statistics&logoColor=white" alt="Statistics"/>
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau"/>
+  <img src="https://img.shields.io/badge/Power%20BI-F2C810?style=for-the-badge&logo=powerbi&logoColor=white" alt="Power BI Badge">
+
+   
 </div>
 
 ## 📄 Resume
