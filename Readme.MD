@@ -35,6 +35,6 @@ Feel free to explore my experience, skills, and accomplishments in a more struct
 
 ## Let's Connect! 🌐
 
-Feel free to explore my repositories and join me on this data-driven adventure! Connect with me on [LinkedIn](#) for more quirky updates. 🚀
+Feel free to explore my repositories and join me on this data-driven adventure! Connect with me on [LinkedIn](https://www.linkedin.com/in/maehika-hegde/) for more quirky updates. 🚀
 
 **Happy Coding!** 🎉
