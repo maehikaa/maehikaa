@@ -40,7 +40,7 @@ Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to
 
 ## 📄 Resume
 
-For a detailed look at my professional journey, check out my [resume](https://drive.google.com/file/d/1YNtESrdbtGgGblH8P6NAcPhZxuFhtDC3/view?usp=drive_link)!
+For a detailed look at my professional journey, check out my [resume](https://drive.google.com/file/d/1wvBSOSsQB5QU8wxbO_4fFstPqcJH0rJH/view?usp=drive_link)!
 
 Feel free to explore my experience, skills, and accomplishments in a more structured format.
 
