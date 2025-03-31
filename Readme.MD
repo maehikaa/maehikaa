@@ -4,33 +4,33 @@ Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to
 
 ## Professional Journey 🚀
 
-🎥 Data Analyst @ Sony Pictures Entertainment (Current)
+🎥 **Data Analyst @ Sony Pictures Entertainment (Current)**
 
   - Driving data-driven decisions in the entertainment industry through advanced analytics.
   - Leveraging SQL, Python, and visualization tools to extract key insights and optimize business strategies.
 
-📊 Data Analyst @ USC Annenberg Inclusion Initiative
+📊 **Data Analyst @ USC Annenberg Inclusion Initiative**
 
   - Extracted key diversity insights from large datasets using SQL, identifying representation gaps in entertainment.
   - Developed interactive dashboards in Apache Superset to visualize diversity metrics, making data more accessible.
 
-🎬 Data Operations Intern @ NBCUniversal (Fandango Advanced Analytics)
+🎬 **Data Operations Intern @ NBCUniversal (Fandango Advanced Analytics)**
 
   - Enhanced data integrity by troubleshooting pipeline issues and refining SQL transformations in AWS Redshift.
   - Acted as a Technical Product Manager, gathering business requirements and translating them into actionable insights.
   - Investigated transactions, reconciled customer purchase behavior, and worked on strategic analytics projects.
 
-🔍 Forensic Wizard @ KPMG 
-   - Unveiling mysteries in the intricate world of financial data.
-   - Excel sorcerer, taming data with advanced features.
-   - PowerPoint virtuoso, telling tales of anomalies through impactful presentations.
+🔍 **Risk Consultant @ KPMG**
+  - Analyzed financial datasets to identify anomalies and enhance fraud detection through advanced Excel techniques.
+  - Conducted forensic investigations, leading to the implementation of remedial measures that achieved 20% projected savings.
+  - Delivered impactful reports and presentations, providing actionable insights to senior stakeholders and mitigating future financial risks.
 
 ## Current Adventure 🌟
 
 📚 **Master's of Science in Business Analytics @ University of Southern California, Marshall School of Business**  
-   - Diving deep into the world of data at the University of Southern California.
-   - Pythonista 🐍, SQL enthusiast, and a Statistician at heart.
-   - Crafting compelling visualizations in Tableau - turning complexity into clarity.
+   - Mastering data science techniques with a focus on analytics, machine learning, and statistical modeling.
+   - Proficient in Python, SQL, and data manipulation to drive actionable insights.
+   - Expert in creating data visualizations in Tableau, transforming complex datasets into clear, impactful stories.
 
 ## Technologies in My Toolkit 🧰
 
