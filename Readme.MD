@@ -20,7 +20,7 @@ Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to
   - Acted as a Technical Product Manager, gathering business requirements and translating them into actionable insights.
   - Investigated transactions, reconciled customer purchase behavior, and worked on strategic analytics projects.
 
-🔍 **Forensic Wizard @ KPMG**  
+🔍 Forensic Wizard @ KPMG 
    - Unveiling mysteries in the intricate world of financial data.
    - Excel sorcerer, taming data with advanced features.
    - PowerPoint virtuoso, telling tales of anomalies through impactful presentations.
