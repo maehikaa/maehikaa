@@ -1,4 +1,4 @@
-# Awesome Data Explorer 👨‍💻✨
+# Data Explorer 👨‍💻✨
 
 Hey there! 👋 I'm a Chartered Accountant turned Data Explorer, on a mission to unravel the secrets hidden in the vast universe of data. Here's a sneak peek into my journey:
 
