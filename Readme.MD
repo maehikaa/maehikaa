@@ -48,4 +48,4 @@ Feel free to explore my experience, skills, and accomplishments in a more struct
 
 Feel free to explore my repositories and join me on this data-driven adventure! Connect with me on [LinkedIn](https://www.linkedin.com/in/maehika-hegde/) for more quirky updates. 🚀
 
-**Happy Coding!** 🎉
+
