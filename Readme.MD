@@ -4,7 +4,7 @@ Hey there! 👋 I'm a Chartered Accountant (CPA equivalent) turned Data Explorer
 
 ## Professional Journey 🚀
 
-📱 **Marketing Science Intern @ TikTok Ads for Business (Current)**
+📱 **Data Analyst @ TikTok (Current)**
 
   - Led analysis of first-party data to evaluate creator effectiveness and content performance.
   - Built dashboards and tested AI tools to generate actionable insights for campaign optimization.
