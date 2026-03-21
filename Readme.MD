@@ -56,7 +56,7 @@ Hey there! 👋 I'm a Chartered Accountant (CPA equivalent) turned Data Explorer
 
 ## 📄 Resume
 
-For a detailed look at my professional journey, check out my [resume](https://drive.google.com/drive/u/0/folders/1Y4JcpwpAZdscmdZ9vWKkcoSjkcPoPpD2)!
+For a detailed look at my professional journey, check out my [resume](https://drive.google.com/file/d/1r1WfFeZtaKdtkLCBCVIoI94RiexdghQG/view?usp=sharing)!
 
 ## Let's Connect! 🌐
 
