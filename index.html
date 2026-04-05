@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maehika Hegde | Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">MH<span class="logo-dot">.</span></a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-social">
+                <a href="https://www.linkedin.com/in/maehika-hegde/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/maehikaa" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:maehika.hegde@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="Maehika_Hegde_Resume.pdf" download class="nav-resume-btn" aria-label="Download Resume">Resume</a>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <span class="badge-dot"></span>
+                Based in New York City
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line reveal reveal-delay-1">Hi, I'm <span class="highlight">Maehika Hegde</span></span>
+                <span class="title-line reveal reveal-delay-2">Data Analyst &</span>
+                <span class="title-line reveal reveal-delay-3"><span class="typed-text" id="typedText"></span><span class="typed-cursor">|</span></span>
+            </h1>
+            <p class="hero-description reveal reveal-delay-4">
+                Data-driven professional with 5+ years of experience analyzing large-scale behavioral,
+                financial, and transactional data to drive growth and business outcomes.
+            </p>
+            <div class="hero-cta reveal reveal-delay-5">
+                <a href="#experience" class="btn btn-primary">
+                    View My Work
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                <a href="Maehika_Hegde_Resume.pdf" download class="btn btn-outline">
+                    <i class="fas fa-download"></i>
+                    Resume
+                </a>
+            </div>
+            <div class="hero-stats reveal reveal-delay-5">
+                <div class="stat">
+                    <span class="stat-number" data-count="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="100">0</span><span class="stat-plus">M+</span>
+                    <span class="stat-label">Records Analyzed</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="80">0</span><span class="stat-plus">M+</span>
+                    <span class="stat-label">Revenue Impact</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">01 / About</span>
+                <h2 class="section-title reveal">Turning Data Into<br><span class="highlight">Actionable Insights</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I'm a <strong>Chartered Accountant</strong> turned <strong>Data Analyst</strong> with a unique blend of
+                        financial acumen and technical expertise. With an M.S. in Business Analytics from
+                        <strong>USC Marshall School of Business</strong> (GPA: 3.97), I bring rigorous analytical thinking
+                        to every dataset I touch.
+                    </p>
+                    <p>
+                        From uncovering fraud patterns in 100M+ transaction records at <strong>KPMG</strong> to enabling
+                        $80M+ in advertiser revenue at <strong>TikTok</strong>, I specialize in translating complex data
+                        into strategic business recommendations that drive measurable outcomes.
+                    </p>
+                    <p>
+                        My expertise spans SQL, Python, statistical modeling, machine learning, and data visualization.
+                        I'm passionate about leveraging data to solve real-world problems and empower decision-makers
+                        with clear, compelling insights.
+                    </p>
+                </div>
+                <div class="about-highlights reveal">
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>Analytics</h4>
+                        <p>SQL, Python, R, statistical modeling & predictive analytics</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-brain"></i></div>
+                        <h4>Machine Learning</h4>
+                        <p>Regression, classification, NLP, anomaly detection & time series</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-database"></i></div>
+                        <h4>Data Engineering</h4>
+                        <p>ETL pipelines, data modeling, AWS, Snowflake & Spark</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon"><i class="fas fa-chart-pie"></i></div>
+                        <h4>Visualization</h4>
+                        <p>Tableau, Looker, Power BI & interactive dashboards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">02 / Experience</span>
+                <h2 class="section-title reveal">Where I've Made<br><span class="highlight">An Impact</span></h2>
+            </div>
+            <div class="timeline">
+                <!-- TikTok -->
+                <div class="timeline-item reveal" data-company="tiktok">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>TikTok</h3>
+                                <span class="timeline-role">Data Analyst</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="far fa-calendar"></i> Jun 2025 – Present</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <span class="impact-metric">$80M+</span>
+                                Enabled annual advertiser revenue supporting a leading tech brand, analyzing first-party data across 50+ markets using SQL
+                            </li>
+                            <li>
+                                <span class="impact-metric">Cultural Insights</span>
+                                Identified month-on-month shifts in top trending hashtags, uncovering culturally significant consumer behavior patterns
+                            </li>
+                            <li>
+                                <span class="impact-metric">19+ Verticals</span>
+                                Quantified the impact of branding elements on first-view watch time by applying regression modeling
+                            </li>
+                            <li>
+                                <span class="impact-metric">30% Efficiency</span>
+                                Accelerated team efficiency by refactoring 20+ complex SQL queries and evaluating 12+ AI-driven analytics tools
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>SQL</span><span>Python</span><span>Regression Modeling</span><span>Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sony -->
+                <div class="timeline-item reveal" data-company="sony">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>Sony Pictures Entertainment</h3>
+                                <span class="timeline-role">Business & Data Analysis Intern</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="far fa-calendar"></i> Feb 2025 – May 2025</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Culver City, CA</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <span class="impact-metric">~6 hrs/week</span>
+                                Eliminated manual Excel reporting across four departments by designing interactive Tableau dashboards
+                            </li>
+                            <li>
+                                <span class="impact-metric">25% Reduction</span>
+                                Reduced EV charger wait times by conducting A/B tests and analyzing utilization data
+                            </li>
+                            <li>
+                                <span class="impact-metric">18% Accuracy</span>
+                                Improved cost forecast accuracy, supporting $2M+ in annual resource allocation decisions
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Tableau</span><span>SQL</span><span>A/B Testing</span><span>Python</span><span>Forecasting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NBCUniversal -->
+                <div class="timeline-item reveal" data-company="nbc">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>NBCUniversal</h3>
+                                <span class="timeline-role">Data Operations Intern – Fandango</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="far fa-calendar"></i> Jun 2024 – Aug 2024</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Universal City, CA</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <span class="impact-metric">40% Efficiency</span>
+                                Increased data integration efficiency by leading ETL pipeline initiatives in JIRA
+                            </li>
+                            <li>
+                                <span class="impact-metric">~22% Error Reduction</span>
+                                Reduced data error rates by optimizing 15+ SQL queries on Rotten Tomatoes datasets (3M+ rows)
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>ETL Pipelines</span><span>SQL</span><span>JIRA</span><span>Data Quality</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- KPMG -->
+                <div class="timeline-item reveal" data-company="kpmg">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>KPMG</h3>
+                                <span class="timeline-role">Consultant – Forensic Investigation</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="far fa-calendar"></i> Apr 2021 – Jul 2023</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Mumbai, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <span class="impact-metric">40% Loss Reduction</span>
+                                Reduced fraud-related losses by analyzing 100M+ transaction records using anomaly detection
+                            </li>
+                            <li>
+                                <span class="impact-metric">55% Fraud Cut</span>
+                                Cut fraudulent payment volume by partnering with Legal and Finance teams
+                            </li>
+                            <li>
+                                <span class="impact-metric">100 Companies</span>
+                                Strengthened fraud controls by 65% across 100 companies through due diligence
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Anomaly Detection</span><span>Fraud Analytics</span><span>Risk Advisory</span><span>Due Diligence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ramesh Sunil -->
+                <div class="timeline-item reveal" data-company="rsa">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-company">
+                                <h3>M/s Ramesh Sunil and Associates</h3>
+                                <span class="timeline-role">Associate</span>
+                            </div>
+                            <div class="timeline-meta">
+                                <span class="timeline-date"><i class="far fa-calendar"></i> Nov 2019 – Apr 2021</span>
+                                <span class="timeline-location"><i class="fas fa-map-marker-alt"></i> Mumbai, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-details">
+                            <li>
+                                <span class="impact-metric">100+ Entities</span>
+                                Led statutory audits across companies, partnerships, and individuals
+                            </li>
+                            <li>
+                                <span class="impact-metric">30% Reduction</span>
+                                Reduced liability exposure through strategic tax structuring and planning
+                            </li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Audit</span><span>Tax Planning</span><span>Financial Analysis</span><span>Compliance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">03 / Education</span>
+                <h2 class="section-title reveal">Academic<br><span class="highlight">Foundation</span></h2>
+            </div>
+            <div class="education-grid">
+                <div class="edu-card reveal" data-tilt>
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>University of Southern California</h3>
+                    <h4>Marshall School of Business</h4>
+                    <p class="edu-degree">M.S. Business Analytics (STEM)</p>
+                    <div class="edu-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Los Angeles, CA</span>
+                        <span><i class="far fa-calendar"></i> May 2025</span>
+                    </div>
+                    <div class="edu-gpa">
+                        <span class="gpa-label">GPA</span>
+                        <span class="gpa-value">3.97</span>
+                    </div>
+                    <div class="edu-extras">
+                        <p><strong>Leadership:</strong> Head of Finance, Business Analytics Student Association</p>
+                        <p><strong>TA:</strong> Generative AI and Automation: Business and Societal Implications</p>
+                    </div>
+                    <div class="edu-courses">
+                        <span>Statistical Computing</span>
+                        <span>SQL & NoSQL</span>
+                        <span>NLP</span>
+                        <span>Big Data</span>
+                        <span>Fraud Analytics</span>
+                        <span>Time Series</span>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal" data-tilt>
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>University of Mumbai</h3>
+                    <h4>&nbsp;</h4>
+                    <p class="edu-degree">M.Com, Advanced Accountancy</p>
+                    <div class="edu-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Mumbai, India</span>
+                        <span><i class="far fa-calendar"></i> Aug 2021</span>
+                    </div>
+                    <div class="edu-gpa">
+                        <span class="gpa-label">GPA</span>
+                        <span class="gpa-value">4.0</span>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal" data-tilt>
+                    <div class="edu-card-accent"></div>
+                    <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>ICAI</h3>
+                    <h4>Institute of Chartered Accountants of India</h4>
+                    <p class="edu-degree">Chartered Accountancy (CPA Equivalent)</p>
+                    <div class="edu-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> India</span>
+                        <span><i class="far fa-calendar"></i> May 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">04 / Skills</span>
+                <h2 class="section-title reveal">Technical<br><span class="highlight">Arsenal</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data & Analytics Engineering</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="95">
+                            <span class="skill-name">SQL (PostgreSQL, MySQL, Snowflake)</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">ETL Pipelines & Data Modeling</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">AWS (S3, DynamoDB)</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Hive, Spark, MongoDB</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming & ML</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="92">
+                            <span class="skill-name">Python (Pandas, NumPy, Scikit-learn)</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">TensorFlow, Keras</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">R Programming</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="88">
+                            <span class="skill-name">NLP, Anomaly Detection, Time Series</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-flask"></i>
+                        <h3>Statistics & Experimentation</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">Statistical Analysis & Hypothesis Testing</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="88">
+                            <span class="skill-name">A/B Testing</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Causal Inference</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">Predictive Modeling</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category reveal">
+                    <div class="skill-category-header">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Visualization & BI</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-level="93">
+                            <span class="skill-name">Tableau</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Looker & Power BI</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="90">
+                            <span class="skill-name">Excel (VBA, Power Query)</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Salesforce</span>
+                            <div class="skill-bar"><div class="skill-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal">05 / Contact</span>
+                <h2 class="section-title reveal">Let's Work<br><span class="highlight">Together</span></h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-description reveal">
+                    I'm always open to discussing new opportunities, interesting projects,
+                    or ways data can drive better business decisions. Feel free to reach out!
+                </p>
+                <div class="contact-cards reveal">
+                    <a href="mailto:maehika.hegde@gmail.com" class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                        <span class="contact-card-label">Email</span>
+                        <span class="contact-card-value">maehika.hegde@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maehika-hegde/" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+                        <span class="contact-card-label">LinkedIn</span>
+                        <span class="contact-card-value">linkedin.com/in/maehika-hegde</span>
+                    </a>
+                    <a href="https://github.com/maehikaa" target="_blank" rel="noopener" class="contact-card">
+                        <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+                        <span class="contact-card-label">GitHub</span>
+                        <span class="contact-card-value">github.com/maehikaa</span>
+                    </a>
+                    <a href="tel:+13236203247" class="contact-card">
+                        <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+                        <span class="contact-card-label">Phone</span>
+                        <span class="contact-card-value">(323) 620-3247</span>
+                    </a>
+                </div>
+                <div class="contact-location reveal">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>New York, New York</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <span class="footer-logo">MH<span class="logo-dot">.</span></span>
+                <p>&copy; 2026 Maehika Hegde. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
